@@ -1,0 +1,16 @@
+{
+    "name": "getdkan/dkan_js_frontend_bartik",
+    "description": "A Bartik sub-theme that disables libraries on DKAN paths. Use as a template for extending other themes as well.",
+    "type": "drupal-theme",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Dan Feder",
+            "email": "dan.feder@civicactions.com"
+        },
+        {
+            "name": "Daniel Gating",
+            "email": "daniel.gating@civicactions.com"
+        }
+    ]
+}
