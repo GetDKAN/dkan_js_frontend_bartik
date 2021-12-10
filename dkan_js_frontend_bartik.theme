@@ -8,14 +8,12 @@
 /**
  * Implements hook_page_attachments_alter().
  */
-function bartik_page_attachments_alter(array &$attachments) {
-  $request = \Drupal::routeMatch()->getRouteObject()->getDefault('name');
-  if ($request == 'dkan_js_frontend') {
-    foreach ($attachments['#attached']['library'] as $key => $library) {
-      if ($library == 'bartik/global-styling') {
-        unset($attachments['#attached']['library'][$key]);
-      }
-    }
+function dkan_js_frontend_bartik_page_attachments_alter(array &$attachments) {
+  if (\Drupal::routeMatch()->getRouteObject()->getDefault('name') != 'dkan_js_frontend') {
+    return;
+  }
+  if (($key = array_search('bartik/global-styling', $attachments['#attached']['library'])) !== FALSE) {
+    unset($attachments['#attached']['library'][$key]);
   }
 
 }
