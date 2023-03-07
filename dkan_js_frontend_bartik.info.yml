@@ -1,5 +1,7 @@
 name: DKAN Frontend (Bartik)
 type: theme
 description: 'A Bartik sub-theme that disables libraries on DKAN paths. Use as a template for extending other themes as well.'
-core_version_requirement: ^9
+core_version_requirement: ^9.4 || ^10
 base theme: bartik
+dependencies:
+  - drupal:bartik

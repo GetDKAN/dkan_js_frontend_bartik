@@ -6,6 +6,7 @@ DKAN's dkan_js_frontend module enabled, and are building
 [DKAN Catalog App](https://github.com/GetDKAN/data-catalog-app) or something derivative
 of that as a decoupled frontend.
 
-Further documentation on this setup coming soon, but this theme will be installed
-if you follow the 
-[DKAN Tools standard project creation process](https://getdkan.github.io/dkan-tools/#newproject.html).
+This theme will currently be installed if you follow the 
+[standard project creation process](https://demo.getdkan.org/modules/contrib/dkan/docs/start.html). 
+However, Bartik has been deprecated in Drupal core, so DKAN is working on an alternative frontend 
+approach going forward.
