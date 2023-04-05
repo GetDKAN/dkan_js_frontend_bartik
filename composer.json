@@ -3,6 +3,9 @@
     "description": "A Bartik sub-theme that disables libraries on DKAN paths. Use as a template for extending other themes as well.",
     "type": "drupal-theme",
     "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/bartik": "^1.0"
+    },
     "authors": [
         {
             "name": "Dan Feder",
